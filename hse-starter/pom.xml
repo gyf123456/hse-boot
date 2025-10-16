@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hse</groupId>
+        <artifactId>hse-boot</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>hse-starter</artifactId>
+    <name>HSE Starter</name>
+    <description>快速启动模块：整合所有common模块，一键依赖</description>
+
+    <dependencies>
+        <!-- Common Core -->
+        <dependency>
+            <groupId>com.hse</groupId>
+            <artifactId>hse-common-core</artifactId>
+        </dependency>
+
+        <!-- Common Web -->
+        <dependency>
+            <groupId>com.hse</groupId>
+            <artifactId>hse-common-web</artifactId>
+        </dependency>
+
+        <!-- Common MyBatis -->
+        <dependency>
+            <groupId>com.hse</groupId>
+            <artifactId>hse-common-mybatis</artifactId>
+        </dependency>
+
+        <!-- Common Redis -->
+        <dependency>
+            <groupId>com.hse</groupId>
+            <artifactId>hse-common-redis</artifactId>
+        </dependency>
+
+        <!-- Common Security -->
+        <dependency>
+            <groupId>com.hse</groupId>
+            <artifactId>hse-common-security</artifactId>
+        </dependency>
+
+        <!-- Spring Boot Actuator -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
